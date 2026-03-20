@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { destinations } from '../../Data';
+import Frontend from '../../layout/Frontend';
 
 function Detail() {
   let { id } = useParams();
@@ -19,6 +20,7 @@ function Detail() {
 
   return (
     <>
+    <Frontend>
     <div className="max-w-6xl mx-auto px-4 py-10">
       <div className="grid md:grid-cols-2 gap-10 bg-white p-6 rounded-2xl shadow-lg">
 
@@ -66,6 +68,7 @@ function Detail() {
         </div>
       </div>
     </div>
+    </Frontend>
     </>
   )
 }

@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Frontend from "../../layout/Frontend";
 
 function About() {
   return (
+    <>
+    <Frontend>
     <div>
 
       {/* Hero Section */}
@@ -103,6 +106,8 @@ function About() {
       </section>
 
     </div>
+    </Frontend>
+    </>
   );
 }
 

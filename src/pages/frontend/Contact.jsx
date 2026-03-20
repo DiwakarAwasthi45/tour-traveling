@@ -1,7 +1,10 @@
 import React from "react";
+import Frontend from "../../layout/Frontend";
 
 function Contact() {
   return (
+    <>
+    <Frontend>
     <div>
 
       {/* Hero Section */}
@@ -80,6 +83,8 @@ function Contact() {
       </section>
 
     </div>
+    </Frontend>
+    </>
   );
 }
 
