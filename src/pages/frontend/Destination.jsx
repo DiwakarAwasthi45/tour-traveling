@@ -1,11 +1,12 @@
 import React from "react"
 import { destinations } from "../../Data"
+import { useNavigate } from "react-router-dom"
 
 function Destination() {
   
 let navigate = useNavigate()
     let handleClick=()=>{
-        navigate('/details')
+        navigata('/details')
     }
 
   return (

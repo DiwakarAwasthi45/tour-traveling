@@ -6,6 +6,8 @@ import Packages from './pages/frontend/Packages'
 import About from './pages/frontend/About'
 import Contact from './pages/frontend/Contact'
 import Detail from './pages/frontend/Detail'
+import Booking from './pages/frontend/Booking'
+
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <Route path='/packages' element={<Packages/>}/>
        <Route path='/about' element={<About/>}/>
        <Route path='/contact' element={<Contact/>}/>
-       <Route path='/details' element={<Detail/>}/>
+       <Route path='/details/:id' element={<Detail/>}/>
+        <Route path='/booking/:id' element={<Booking/>}/>
+       
        
    </Routes>
    </>
